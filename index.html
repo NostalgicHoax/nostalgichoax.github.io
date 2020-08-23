@@ -3,25 +3,320 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
 
+<head>
+	<style>
+	</style>
+</head>
+
 <html>
-	<nav class="navbar navbar-light bg-light">
-		<a class="navbar-brand" href="#">
-		  <img src="odal.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-		  Nostalgic's Zone
-		</a>
-	</nav>
-	<div class="container-sm mt-5">
-		<div class="card">
-			<div class="card-header">
-		  		Updates
+	<body>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+			<!-- Brand -->
+			<a class="navbar-brand" href="#"><img src="chronicler.png" alt="chronicler" style="width: 50px;"></a>
+
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				</ul>
 			</div>
-			<div class="card-body">
-		  		<blockquote class="blockquote mb-0">
-					<p>My food mod is now in development! Its available for minecraft 1.15.2! Also welcome to the new and improved Website, hope you like it!</p>
-					<a style="color:green" href="https://www.curseforge.com/minecraft/modpacks/quirky-quarks">Quirky Quarks: A 1.15.2 Modpack</a>
-					<footer class="blockquote-footer"><cite title="Source Title">Thor</cite></footer>
-		  		</blockquote>
-			</div>
-	  	</div>
-	  </div>
+		</nav> 
+		<div class="table-responsive" style="background-color: #292b2c;">           
+			<table class="table table-dark table-bordered table-sm" style="background-color: #292b2c;">
+				<thead>
+				<tr>
+					<th></th>
+					<th>Mod</th>
+					<th>Season</th>
+					<th>Source(s)</th>
+					<th>Cost & Affinity</th>
+					<th>Effect</th>
+					<th>Notes</th>
+				</tr>
+				</thead>
+				<tbody>
+				
+				<!--Boss Resist-->  
+				<tr>
+					<th><img src="mod-images\boss-resist.png" class="float-left" alt="Boss Resist"></th>
+					<th>Boss Resist</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>2 of Any Energy</th>
+					<th>Gain extra damage resistance against bosses and vehicles.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Major Resist-->  
+				<tr>
+					<th><img src="mod-images\major-resist.png" class="float-left" alt="Major Resist"></th>
+					<th>Major Resist</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>1 of Any Energy</th>
+					<th>Gain extra damage resistance against powerful combatants.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Minor Resist-->  
+				<tr>
+					<th><img src="mod-images\minor-resist.png" class="float-left" alt="Minor Resist"></th>
+					<th>Minor Resist</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>1 of Any Energy</th>
+					<th>Gain extra damage resistance against rank-and-file combatants.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Concussive Dampener-->  
+				<tr>
+					<th><img src="mod-images\concussive-dampener.png" class="float-left" alt="Concussive Dampener"></th>
+					<th>Concussive Dampener</th>
+					<th>Dawn</th>
+					<th>Complete obelisk bounties and increase the Resonance Rank of obelisks across the system.</th>
+					<th>1 of Any Energy</th>
+					<th>Reduces incoming area-of-effect damage from combatants. </th>
+					<th>• This mod was available during the Season of Dawn and most mods are only usable on armor from the previous, current, and next season. This mod is the exception to this rule and is available at all times on all armor pieces.</th>
+				</tr>
+
+				<!--Intellect Mod-->  
+				<tr>
+					<th><img src="mod-images\minor-resist.png" class="float-left" alt="Minor Resist"></th>
+					<th>Intellect Mod</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>5 of Any Energy</th>
+					<th>Grants increased intellect.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Strength Mod-->  
+				<tr>
+					<th><img src="mod-images\strength-mod.png" class="float-left" alt="Strength Mod"></th>
+					<th>Strength Mod</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>3 of Any Energy</th>
+					<th>Grants increased strength.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Discipline Mod-->  
+				<tr>
+					<th><img src="mod-images\discipline-mod.png" class="float-left" alt="Discipline Mod"></th>
+					<th>Discipline Mod</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>3 of Any Energy</th>
+					<th>Grants increased discipline.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Mobility Mod-->  
+				<tr>
+					<th><img src="mod-images\mobility-mod.png" class="float-left" alt="Mobility Mod"></th>
+					<th>Mobility Mod</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>3 of Any Energy</th>
+					<th>Grants increased mobility.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Recovery Mod-->  
+				<tr>
+					<th><img src="mod-images\recovery-mod.png" class="float-left" alt="Recovery Mod"></th>
+					<th>Recovery Mod</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Any Energy</th>
+					<th>Grants increased recovery.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Resilience Mod-->  
+				<tr>
+					<th><img src="mod-images\resilience-mod.png" class="float-left" alt="Resilience Mod"></th>
+					<th>Resilience Mod</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>3 of Any Energy</th>
+					<th>Grants increased resilience.</th>
+					<th><!--Notes--></th>
+				</tr>
+				
+
+				<!--Solar Resistance-->  
+				<tr>
+					<th><img src="mod-images\solar-resistance.png" class="float-left" alt="Solar Resistance"></th>
+					<th>Solar Resistance</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th style="color: #e88517;">1 of Solar Energy</th>
+					<th>Reduces incoming Solar damage from combatants.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Void Resistance-->  
+				<tr>
+					<th><img src="mod-images\void-resistance.png" class="float-left" alt="Void Resistance"></th>
+					<th>Void Resistance</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th style="color: #ad33ff;">1 of Void Energy</th>
+					<th>Reduces incoming Void damage from combatants.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Arc Resistance-->  
+				<tr>
+					<th><img src="mod-images\arc-resistance.png" class="float-left" alt="Arc Resistance"></th>
+					<th>Arc Resistance</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th style="color: #66c2ff;">1 of Arc Energy</th>
+					<th>Reduces incoming Arc damage from combatants.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Large Weapon Loader-->  
+				<tr>
+					<th><img src="mod-images\large-weapon-loader.png" class="float-left" alt="Large Weapon Loader"></th>
+					<th>Large Weapon Loader</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>5 of Any Energy</th>
+					<th>Faster reload for Rocket Launchers, Grenade Launchers, Machine Guns, and Shotguns.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Rifle Loader-->  
+				<tr>
+					<th><img src="mod-images\rifle-loader.png" class="float-left" alt="Rifle Loader"></th>
+					<th>Rifle Loader</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>5 of Any Energy</th>
+					<th>Increases reload speed for any Rifle-class weapon.</th>
+					<th><i>• Applies to Trace Rifles (Subject to Change)</i></th>
+				</tr>
+
+				<!--Light Arms Loader-->  
+				<tr>
+					<th><img src="mod-images\light-arms-loader.png" class="float-left" alt="Light Arms Loader"></th>
+					<th>Light Arms Loader</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Any Energy</th>
+					<th>Faster reload for Hand Cannons, Sidearms, Submachine Guns, and Bows.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Unflinching Large Arms-->  
+				<tr>
+					<th><img src="mod-images\unflinching-large-arms.png" class="float-left" alt="Unflinching Large Arms"></th>
+					<th>Unflinching Large Arms</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Any Energy</th>
+					<th>Slightly reduces flinching from incoming fire while aiming Rocket Launchers, Grenade Launchers, Machine Guns, and Shotguns.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Unflinching Rifle Aim-->  
+				<tr>
+					<th><img src="mod-images\unflinching-rifle-aim.png" class="float-left" alt="Unflinching Rifle Aim"></th>
+					<th>Unflinching Rifle Aim</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>5 of Any Energy</th>
+					<th>Reduces flinching from incoming fire while aiming any Rifle-class weapon.</th>
+					<th><i>• Applies to Trace Rifles (Subject to Change)</i></th>
+				</tr>
+
+				<!--Unflinching Light Arms Aim-->  
+				<tr>
+					<th><img src="mod-images\unflinching-light-arms-aim.png" class="float-left" alt="Unflinching Light Arms Aim"></th>
+					<th>Unflinching Light Arms Aim</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Any Energy</th>
+					<th>Reduces flinching from incoming fire while aiming Sidearms, Hand Cannons, Bows, and Submachine Guns.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Precision Weapon Targeting-->  
+				<tr>
+					<th><img src="mod-images\precision-weapon-targeting.png" class="float-left" alt="Precision Weapon Targeting"></th>
+					<th>Precision Weapon Targeting</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>5 of Any Energy</th>
+					<th>Improved target acquisition, accuracy, and aim-down-sights speed for Hand Cannons, Scout Rifles, Trace Rifles, Bows, Linear Fusion, Snipers, and Slug Shotguns.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Scatter Projectile Targeting-->  
+				<tr>
+					<th><img src="mod-images\scatter-projectile-targeting.png" class="float-left" alt="Scatter Projectile Targeting"></th>
+					<th>Scatter Projectile Targeting</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Any Energy</th>
+					<th>Improved target acquisition, accuracy, and aim-down-sights speed for Auto Rifles, Machine Guns, SMGs, Pulse Rifles, Sidearms, and Fusion Rifles.</th>
+					<th><i>• Applies to Trace Rifles (Subject to Change)</i></th>
+				</tr>
+
+				<!--Oversize Weapon Dexterity-->  
+				<tr>
+					<th><img src="mod-images\oversize-weapon-dexterity.png" class="float-left" alt="Oversize Weapon Dexterity"></th>
+					<th>Oversize Weapon Dexterity</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Any Energy</th>
+					<th>Faster ready and stow speed for Rocket Launchers, Grenade Launchers, Shotguns, and Bows.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+				<!--Rifle Dexterity-->  
+				<tr>
+					<th><img src="mod-images\rifle-dexterity.png" class="float-left" alt="Rifle Dexterity"></th>
+					<th>Rifle Dexterity</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Any Energy</th>
+					<th>Faster ready and stow speed for all Rifle-class weapons.</th>
+					<th><i>• Applies to Trace Rifles and Fusion Rifles (Subject to Change)</i></th>
+				</tr>
+
+				<!--Light Arms Dexterity-->  
+				<tr>
+					<th><img src="mod-images\light-arms-dexterity.png" class="float-left" alt="Light Arms Dexterity"></th>
+					<th>Light Arms Dexterity</th>
+					<th>Undying (Starter Mods)</th>
+					<th>Unlocked by Default</th>
+					<th>4 of Arc Energy</th>
+					<th>Faster ready and stow speed for Hand Cannons, Sidearms, and Submachine Guns.</th>
+					<th><!--Notes--></th>
+				</tr>
+
+
+				</tbody>
+			</table>
+		</div>
+	</body>
 </html>
